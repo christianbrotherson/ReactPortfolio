@@ -6,13 +6,12 @@ import {
   Route
 } from 'react-router-dom';
 
-import PortfolioContainer from './portfolio/portfolio-container';
 import NavigationContainer from './navigation/navigation-container';
+import PortfolioDetail from './portfolio/portfolio-detail';
 import Home from './pages/home';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Blog from './pages/blog';
-import PortfolioDetail from './portfolio/portfolio-detail';
 import NoMatch from './pages/no-match';
 
 export default class App extends Component {
